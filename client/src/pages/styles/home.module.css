@@ -44,6 +44,7 @@ h3 {
 a {
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
 .container_account > a > button {
