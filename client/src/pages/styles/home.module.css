@@ -1,0 +1,57 @@
+.home_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+.home_image {
+  width: 15em;
+  height: 15em;
+  margin-top: 3em;
+  padding: 1em;
+}
+
+.submit_button {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  align-self: center;
+  padding: 1em 1.3em 1em 1.3em;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.container_account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2em;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+.container_account > a > button {
+  margin: 1em;
+  padding: 1em 2em 1em 2em;
+  background-color: orangered;
+  color: white;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
