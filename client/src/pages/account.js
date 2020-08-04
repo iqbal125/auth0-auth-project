@@ -1,7 +1,9 @@
 import React from "react"
 import Spinner from "../components/Spinner"
 import styles from "./styles/home.module.css"
+import { navigate } from "gatsby"
 import { login, logout, isAuthenticated, getProfile } from "../utils/auth"
+import image1 from "../../static/auth0-icon.svg"
 
 const Account = () => {
   if (!isAuthenticated()) {
@@ -18,11 +20,11 @@ const Account = () => {
         href="#logout"
         onClick={e => {
           logout()
-          e.preventDefault()
         }}
       >
         <button>Logout</button>
       </a>
+      <img className={styles.home_image} src={image1} alt="" />
     </div>
   )
 }
